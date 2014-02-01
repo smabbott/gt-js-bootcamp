@@ -1,1 +1,1 @@
-console.log('hello world');
+var roboSelector = document.getElementById('#robo-selector');
