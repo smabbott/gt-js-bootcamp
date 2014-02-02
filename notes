@@ -1,0 +1,58 @@
+0.0.0 - an empty html page and somewhere to put js and css
+≠ 0.0.1 - seperate js, css, markup is good practice 
+0.0.4 - hello world
+0.0.5 - debugging things (don't expect anything to work the first time)
+      - var foo = 100/0;
+      - avoid frustration
+      - encourages experimentation and guessing
+      - encourage small changes  
+      - frequent trial & error
+      - better understanding
+
+0.1.0 - select element (old school) ≠ but wrong load order
+      ≠ how HTML is parsed
+      ≠ load order matters
+0.1.1 - other method is by onload event handler
+0.1.2 - [detour] what is a function?
+      - it is an abstraction
+      - variables can have function as value
+
+0.2.0 - what is an event?
+      - a class of something that happened
+      - a message broadcast to the 
+0.2.1 - event bubbling
+
+0.3.0 - scope
+
+
+Exercise 1 - 
+
+
+
+
+
+
+
+
+
+
+
+• best practices - seperation of concerns. js => behavior, css => presentation, html => semantic structure
+• debugging with the console and console.log()
+• load order is important
+• events - bubbling
+• jquery is convenience. It is an abstraction of frequently used patterns, utilities. Also 
+• object-oriented programming - everything is an object with data and behavior
+• 
+• return - functions always return a value. return undefined if not specified.
+
+
+
+
+
+
+
+
+Maybe start with object-oriented code, 
+build up to robot army
+don't worry about anything in the dom yet
