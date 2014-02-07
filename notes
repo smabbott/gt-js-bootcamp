@@ -1,25 +1,14 @@
-
-Maybe start with object-oriented code,
-build up to robot army
-don't worry about anything in the dom yet
-
-- who did the codeschool thing?
-- was any of it new?
-- was there anything that was challenging or too hard?
-
 0.0.0 - debugging things (don't expect anything to work the first time)
       - var foo = 100/0;
       - avoid frustration
       - encourages experimentation and guessing
+      - frequent trial & error
       - shortcut refresh and keeps experimental junk out of your code
       - encourage small changes 
-      - frequent trial & error
+      - focus on little pieces rather than whole application which can get unwieldy
       - better understanding of what's going on
 
 0.0.1 - Object - oriented programming
-      - Nowegians writing software for ship yards
-      - tracking cargo
-      - wrote a language to better reflect what was happening in the real world
       - Object = state(data) + behavior
       - state == nouns & adjectives
       - behavior == verbs
@@ -27,7 +16,7 @@ don't worry about anything in the dom yet
       - behavior == functions, known as methods
       - an object in JS has properties names (keys) and values.
 
-      Exercise 0.0.0
+      Exercise 0.0.1
       1. create an object based on something in the room or outside
       2. it should have state and behavior at least 3 properties that are state, at least 1 function that mondifies the state
       3. at least one behavior should do somehting to the state of the object
@@ -62,33 +51,32 @@ don't worry about anything in the dom yet
       - it is an abstraction
       - a function is an object
 
-      Stupid Javascript tricks 0.0.1
-      - function.toString()
-      - function.foo = 'some string'
-      - function.bar = function(){console.log('what!');}
-
+      Stupid Javascript tricks 0.0.2
+      - foo.toString()
+      - foo.bar = 'some string'
+      - foo.bar = function(){console.log('what!');}
+      - foo.bar = foo
+      - foo.bar(); foo.bar.bar(); foo.bar.bar.bar();
 
 0.0.3 - Scope
-      - You Are Here ⬇
+      - Keep your fiends close and your vars closer
       - variables defined in a function are only accessibe from within that function
       - a function changes scope
-      - [this] is a reference to the current context
 
       - set variable at global level
       - set variable with same name but different value inside function.
       - run with logging before, inside and after function
 
       - set variable at global level.
-- set variable inside function without var
-- run with logging before, inside and after function
+      - set variable inside function without var
+      - run with logging before, inside and after function
 
-- don't set var at global level
-- set var inside function without var
-- run with logging before, inside and after function
+      - don't set var at global level
+      - set var inside function without var
+      - run with logging before, inside and after function
 
 
-
-      Exercise 0.0.2
+      Exercise 0.0.3
       1. Create a situation in which one variable is not accessible from another part of the code.
       2. Demonstrate that it is not accessible
       3. Now change your code so that the variable is now accessible from where it previously wasn't.
@@ -102,7 +90,12 @@ don't worry about anything in the dom yet
         console.log(foo);
       };
      
-      Stupid Javascript Tricks 0.0.2
+
+
+0.0.4 This is This
+      - [this] is a reference to the current context
+
+      Stupid Javascript Tricks 0.0.4
       var obj = {
         name:function(){
           this.name = 'invisible';
@@ -114,7 +107,6 @@ don't worry about anything in the dom yet
           this.name();
         }
       };
-
 
 0.1.0 Let's build an Exquisite Robot Army
       - identify state (variable data) and behavior (functions/actions)
@@ -225,6 +217,8 @@ var robot = {
 
 
 ------------------------------------------------
+0.3.0 - Classes & Inheritance — OOP Part II
+      - Another important technique/tool for managing code
 
 function Robot(){
   return {
@@ -268,17 +262,14 @@ function Robot(){
   };
 }
 
-
-To Cover Later ______________________________
-• events - bubbling
-• jquery is convenience/abstraction. Treat elements on dom the same way as with css.
-• return - functions always returns a value. return undefined if not specified.
-
-
 RESOURCES
 • javascript garden:  http://bonsaiden.github.io/JavaScript-Garden
 • crockford on JS:    http://www.youtube.com/watch?v=JxAXlJEmNMg
 • Discover Dev Tools: http://discover-devtools.codeschool.com/?locale=en
 
+To Cover Later ______________________________
+• events - bubbling
+• jquery is convenience/abstraction. Treat elements on dom the same way as with css.
+• return - functions always returns a value. return undefined if not specified.
 
 

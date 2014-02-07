@@ -1,0 +1,148 @@
+/* SIMPLE GRID OVERRIDE */
+.grid-pad > [class*='col-']:last-of-type{
+  padding-right:0px;
+}
+
+/* CUSTOM */
+body{
+  color: #999;
+  background-color:rgb(245,245,245);
+}
+
+a{
+  color:#999;
+  text-decoration: none;
+}
+
+a:hover{
+  background-color:#999;
+  color:white;
+}
+
+ul, ol{
+  padding:0;
+  margin:0;
+  list-style-position: inside;
+  line-height: 1.5em;
+}
+
+.right{
+  float:right;
+}
+
+.container{
+  margin:40px auto;
+  width:80%;
+}
+
+.box{
+  padding:10px;
+  border:1px solid rgb(240,240,230);
+  background-color:white;
+}
+
+.recruits .box{
+  width:10px;
+  height:10px;
+  margin:0 0.5em 0.5em 0;
+}
+
+.recruits .box[class*='col-']:last-of-type{
+  padding:10px;
+}
+
+.workbench .part{
+  height:150px;
+  margin-bottom:0.5em;
+}
+
+.picker{
+  float:right;
+  width:auto;
+}
+
+h1{
+  border-top:4px solid #999;
+}
+
+h2, h3, h4{
+  border-top:2px solid #999;
+}
+
+p{
+  margin:0 0 1.5em 0;
+}
+
+label{
+  display:block;
+  margin-bottom:0.25em;
+}
+
+input[type=text], textarea, select{
+  border:1px solid rgb(246,246,246);
+  padding:0.25em;
+  outline:1px solid rgb(240,240,230);
+}
+
+input[type=text]:focus, textarea:focus, button:focus, select:focus{
+  outline:2px solid #999;
+}
+ 
+input, select, button{
+  width:100%;
+}
+
+select{
+  background-image:url(../images/dogear.gif);
+  background-repeat:no-repeat;
+  background-position:bottom right;
+  background-color: white;
+  -webkit-appearance: none;
+  color: #999;
+  padding: 0.25em 0.5em;
+  border-radius: 0;
+  position:relative;
+}
+
+option:after{
+  content:"&#9660;";
+  position:absolute;
+  display:block;
+  right:0.5em;
+  top:0.25em;
+}
+
+::-webkit-input-placeholder {
+   color: #ddd;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #ddd;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #ddd;  
+}
+
+:-ms-input-placeholder {  
+   color: #ddd;  
+}
+
+
+button{
+  position: relative;
+  background-color: transparent;
+  border: none;
+  color: #999;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.5em;
+  padding: 0.25em 0;
+  text-align: left;
+}
+
+.big{
+  font-size:2em;
+  line-height:0;
+  vertical-align: middle;
+}
