@@ -8,6 +8,7 @@ body{
 }
 
 .box{
+  padding:10px;
   border:1px solid #efeffe;
   background-color:rgba(210,230, 255, 0.8);
 }

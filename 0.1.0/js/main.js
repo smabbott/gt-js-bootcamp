@@ -1,1 +1,0 @@
-var roboSelector = document.getElementById('robo-selector');
