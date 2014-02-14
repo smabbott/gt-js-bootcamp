@@ -1,4 +1,4 @@
-➊ Review: Object-oriented progmming encapsulates state and behavior. This is good for 
+❤ Review: Object-oriented progmming encapsulates state and behavior. This is good for 
 • organization 
 • abstraction 
 • legibility
@@ -6,9 +6,14 @@
 • sanity
 
 
-➋ Put it into practice: build the Exquisite Robot Army
+❤ Put it into practice: build the Exquisite Robot Army
 • given some specs, identify the states and behaviors we should track
 • group states and behaviors into objects what they concern
+
+
+
+
+
 
 Specs:
 • Should be able to choose from a variety of heads, torsos and legs for a robot.
@@ -19,7 +24,3 @@ Specs:
 • A robot may not be enlisted to the army without having each of the previously listed properties assigned.
 • When the robot is enlisted, all fields in the workbench are reset.
 • ...and some other things that we'll define later
-
-
-➌ Model the objects
-• 

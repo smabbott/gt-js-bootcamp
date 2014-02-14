@@ -125,14 +125,6 @@
 
         };
 
-      - why would we want to use setter functions? Couldn't we just set them directly?
-        robot.setName('Mr. Roboto');
-        robot.name = 'Mr. Roboto';
-
-        'Benny' => 'Benny the Robot'
-        setName:function(newName){
-          this.name = newName + ' the Robot';
-        }
 
       Exercise 0.1.0
       - create a setter method for rank that takes a string and sets the rank to an abbreviated version of that string.
@@ -154,6 +146,10 @@
         getName:function(){
           return rank + " " + name;
         }
+
+        getName:function(){
+          return rank + " " + name + " the robot";
+        }        
 
 0.1.2 - return
       - it is the output of a function, the other side of ()
